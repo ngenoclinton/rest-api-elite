@@ -16,7 +16,6 @@ public abstract class UserServices implements IUserServices{
     private UserRepository userRepository;
     @Autowired
     private PasswordEncoder passwordEncoder;
-
     @Autowired
     private LocalDate localDateTime;
 
